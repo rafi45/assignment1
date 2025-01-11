@@ -407,6 +407,7 @@ main{
 
 .donate-amount:hover {
     background-color: #C6E4D6;
+    cursor: pointer;
 }
 
 .donate-description{
@@ -523,5 +524,36 @@ input[type="email"]{
     padding: 17px 34px 17px 34px;
 }
 
+.submit-btn:hover{
+    background-color: #09a15c;
+    color: #ffffff;
+    cursor: pointer;
+}
 
+/* Footer Styles */
 
+footer{
+    padding: 50px 160px 50px 160px;
+}
+
+footer hr {
+    margin: 32px auto;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    max-width: 1122px;
+}
+
+.footer-text{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+.social-icon {
+    margin-left: 23px;
+}
