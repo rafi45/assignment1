@@ -1,120 +1,35 @@
 /* Global Font */
 
-.fira-sans-thin {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.fira-sans-medium {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.fira-sans-semibold {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.fira-sans-bold {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
-}
-
-.fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-}
-
-.fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-}
-
-.fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
-}
-
-
 /* Primary Color and Styles */
 
-/* .btn-primary{
+body{
+    background-color: #f5f5f5;
+}
 
-} */
+.section-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin: 0;
+}
 
+.section-description{
+    color: #0E0E0EB3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
 /* Header Styles - Navbar */
 
 nav{
@@ -204,8 +119,247 @@ nav .header-button:hover {
 .hero-banner{
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin: 0 160px;
-    margin-top: 20px;
+    margin: 20px 160px 80px;
     padding: 80px 59px 80px 59px;
 
+}
+
+.hero-img{
+    width: 474.03px;
+}
+
+/* Main Body Styles */
+main{
+    max-width: 1600px;
+    margin: 0 160px;
+}
+
+/* Pillars Section Styles */
+.pillars-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+
+}
+
+.pillar{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+.pillar-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 12px 24px;
+}
+
+.pillar-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 24px;
+}
+
+.pillar-img{
+    margin: 25px;
+}
+
+/* Vision Styles */
+
+.vision-description{
+    margin-bottom: 32px;
+    padding-right: 40px;
+}
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 80px;
+
+}
+
+.vision-card-1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+.vision-card-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+
+.vision-card-3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+
+.card-title{
+    color: black;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card-description{
+    color: #0E0E0EB3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card-btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px 11px 20px;
+}
+
+.card-btn-1:hover{
+    background-color: #fff;
+    color: rgb(84, 144, 245);
+    border: 1px solid rgb(84, 144, 245);
+    cursor: pointer;
+}
+
+.card-btn-2{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px 11px 20px;
+}
+
+.card-btn-2:hover{
+    background-color: #fff;
+    color: rgb(9, 161, 92);
+    border: 1px solid rgb(9, 161, 92);
+    cursor: pointer;
+}
+.card-btn-3{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px 11px 20px;
+}
+
+.card-btn-3:hover{
+    background-color: #fff;
+    color:rgb(255, 194, 57);
+    border: 1px solid rgb(255, 194, 57);
+    cursor: pointer;
+}
+
+/* Quote Styles */
+
+.quote{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+    margin-bottom: 80px;
+}
+
+.quote-container{
+    background-image: url('/assets/img/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 10px;
+}
+.quote-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.quote-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+.quote-designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 4px 0 0 0;
+}
+
+/* News Styles */
+
+.news{
+    margin-bottom: 80px;
+}
+
+.news-container{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news-container-2{
+    display: flex;
+    flex-direction: row-reverse;
 }
