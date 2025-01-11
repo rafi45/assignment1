@@ -322,6 +322,26 @@ main{
     margin: 4px 0 0 0;
 }
 
+/* Opinion Section Styles */
+/* .table-container{
+    padding: 32px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 24px 0 80px 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.tr-styles{
+    display: flex;
+    width: 1216px;
+} */
 /* News Styles */
 
 .news{
@@ -557,3 +577,4 @@ footer hr {
 .social-icon {
     margin-left: 23px;
 }
+/* End */
